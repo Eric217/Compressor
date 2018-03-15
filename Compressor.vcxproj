@@ -129,8 +129,21 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="TreePanel.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BinaryTree.hpp" />
+    <ClInclude Include="Decode.h" />
+    <ClInclude Include="Dictionary.hpp" />
+    <ClInclude Include="Encode.h" />
+    <ClInclude Include="HuffmanTree.hpp" />
+    <ClInclude Include="LinkedQueue.hpp" />
+    <ClInclude Include="LinkedSet.hpp" />
+    <ClInclude Include="LinkedStack.hpp" />
+    <ClInclude Include="MinHeap.hpp" />
+    <ClInclude Include="Node.hpp" />
+    <QtMoc Include="TreePanel.h" />
+    <ClInclude Include="Common.h" />
     <QtMoc Include="Compressor.h" />
     <ClInclude Include="stdafx.h" />
   </ItemGroup>

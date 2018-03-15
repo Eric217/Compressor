@@ -28,6 +28,15 @@
       <Extensions>moc;h;cpp</Extensions>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
+    <Filter Include="Header Files\DataStructure">
+      <UniqueIdentifier>{3dc9e16e-cc91-42da-aa92-2b0e44ccbc82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\View">
+      <UniqueIdentifier>{94780ec8-3c15-42fd-bde8-8835345cff90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CoreFunction">
+      <UniqueIdentifier>{62c3e1f7-d17f-4187-8b96-ff3bc19f94c9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -39,16 +48,47 @@
     <ClCompile Include="Compressor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="TreePanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stdafx.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="BinaryTree.hpp">
+      <Filter>Header Files\DataStructure</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <QtMoc Include="Compressor.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
+    <ClInclude Include="HuffmanTree.hpp">
+      <Filter>Header Files\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedQueue.hpp">
+      <Filter>Header Files\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedSet.hpp">
+      <Filter>Header Files\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedStack.hpp">
+      <Filter>Header Files\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHeap.hpp">
+      <Filter>Header Files\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.hpp">
+      <Filter>Header Files\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\CoreFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="Encode.h">
+      <Filter>Header Files\CoreFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="Decode.h">
+      <Filter>Header Files\CoreFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="Dictionary.hpp">
+      <Filter>Header Files\DataStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Header Files\CoreFunction</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <QtUic Include="Compressor.ui">
@@ -59,5 +99,13 @@
     <QtRcc Include="Compressor.qrc">
       <Filter>Resource Files</Filter>
     </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Compressor.h">
+      <Filter>Header Files\View</Filter>
+    </QtMoc>
+    <QtMoc Include="TreePanel.h">
+      <Filter>Header Files\View</Filter>
+    </QtMoc>
   </ItemGroup>
 </Project>
