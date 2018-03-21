@@ -1,5 +1,4 @@
 # Compressor
 A Compressor based on huffman.
-VS + QT
-Write for Windows.
+VS + QT, Written for Windows.
 Real Compression
